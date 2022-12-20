@@ -1,0 +1,4 @@
+Name: RAEtherNet/IPDriver1
+Type: LogixDriver
+Children:
+- File: RAEtherNet_IPStation1/RAEtherNet_IPStation1.yaml

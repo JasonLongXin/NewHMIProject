@@ -1,0 +1,23 @@
+Name: TagImporter
+Type: LogixTagImporter
+OwnerId: ns=2;g=2f57a18b5dfc29c8136ae307967fbea7
+Children:
+- Name: FilePath
+  Type: BaseDataVariableType
+  DataType: AbsoluteResourceUri
+  Value: "file:///C:/Users/Jason/Desktop/AOI_E.ACD"
+- Name: Mode
+  Type: BaseDataVariableType
+  DataType: FetchModes
+  Value: 0
+- Name: IgnoredPLCItems
+  Type: BaseDataVariableType
+  DataType: BaseDataType
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+- Name: IgnoredHMIItems
+  Type: BaseDataVariableType
+  DataType: NodeId
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+  Value: []

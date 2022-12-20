@@ -1,0 +1,7375 @@
+Name: Tags
+Type: BaseObjectType
+Children:
+- Name: Controller Tags
+  Type: TagStructure
+  Children:
+  - Name: Cmd_Gear
+    Type: LogixTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cmd_Gear"
+  - Name: Conveyor
+    Type: AXIS_VIRTUAL
+    Children:
+    - Name: AxisFault
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.AxisFault"
+    - Name: PhysicalAxisFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.PhysicalAxisFault"
+    - Name: ModuleFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.ModuleFault"
+    - Name: ConfigFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.ConfigFault"
+    - Name: GroupFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.GroupFault"
+    - Name: AxisStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.AxisStatus"
+    - Name: ServoActionStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.ServoActionStatus"
+    - Name: DriveEnableStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.DriveEnableStatus"
+    - Name: ShutdownStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.ShutdownStatus"
+    - Name: ConfigUpdateInProcess
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.ConfigUpdateInProcess"
+    - Name: InhibitStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.InhibitStatus"
+    - Name: DirectControlStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.DirectControlStatus"
+    - Name: AxisUpdateStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.AxisUpdateStatus"
+    - Name: MotionStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.MotionStatus"
+    - Name: AccelStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.AccelStatus"
+    - Name: DecelStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.DecelStatus"
+    - Name: MoveStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.MoveStatus"
+    - Name: JogStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.JogStatus"
+    - Name: GearingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.GearingStatus"
+    - Name: HomingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.HomingStatus"
+    - Name: StoppingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.StoppingStatus"
+    - Name: AxisHomedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.AxisHomedStatus"
+    - Name: PositionCamStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.PositionCamStatus"
+    - Name: TimeCamStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.TimeCamStatus"
+    - Name: PositionCamPendingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.PositionCamPendingStatus"
+    - Name: TimeCamPendingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.TimeCamPendingStatus"
+    - Name: GearingLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.GearingLockStatus"
+    - Name: PositionCamLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.PositionCamLockStatus"
+    - Name: TimeCamLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.TimeCamLockStatus"
+    - Name: MasterOffsetMoveStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.MasterOffsetMoveStatus"
+    - Name: CoordinatedMotionStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.CoordinatedMotionStatus"
+    - Name: TransformStateStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.TransformStateStatus"
+    - Name: ControlledByTransformStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.ControlledByTransformStatus"
+    - Name: MoveLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.MoveLockStatus"
+    - Name: JogLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.JogLockStatus"
+    - Name: MasterOffsetMoveLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.MasterOffsetMoveLockStatus"
+    - Name: MaximumSpeedExceeded
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.MaximumSpeedExceeded"
+    - Name: AxisEvent
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.AxisEvent"
+    - Name: WatchEventArmedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.WatchEventArmedStatus"
+    - Name: WatchEventStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.WatchEventStatus"
+    - Name: RegEvent1ArmedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.RegEvent1ArmedStatus"
+    - Name: RegEvent1Status
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.RegEvent1Status"
+    - Name: RegEvent2ArmedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.RegEvent2ArmedStatus"
+    - Name: RegEvent2Status
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.RegEvent2Status"
+    - Name: HomeEventArmedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.HomeEventArmedStatus"
+    - Name: HomeEventStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.HomeEventStatus"
+    - Name: OutputCamStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.OutputCamStatus"
+    - Name: OutputCamPendingStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.OutputCamPendingStatus"
+    - Name: OutputCamLockStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.OutputCamLockStatus"
+    - Name: OutputCamTransitionStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.OutputCamTransitionStatus"
+    - Name: ActualPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.ActualPosition"
+    - Name: StrobeActualPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.StrobeActualPosition"
+    - Name: StartActualPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.StartActualPosition"
+    - Name: AverageVelocity
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.AverageVelocity"
+    - Name: ActualVelocity
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.ActualVelocity"
+    - Name: ActualAcceleration
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.ActualAcceleration"
+    - Name: WatchPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.WatchPosition"
+    - Name: Registration1Position
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.Registration1Position"
+    - Name: Registration2Position
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.Registration2Position"
+    - Name: Registration1Time
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.Registration1Time"
+    - Name: Registration2Time
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.Registration2Time"
+    - Name: InterpolationTime
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.InterpolationTime"
+    - Name: InterpolatedActualPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.InterpolatedActualPosition"
+    - Name: InterpolatedCommandPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.InterpolatedCommandPosition"
+    - Name: MasterOffset
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.MasterOffset"
+    - Name: StrobeMasterOffset
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.StrobeMasterOffset"
+    - Name: StartMasterOffset
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.StartMasterOffset"
+    - Name: CommandPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.CommandPosition"
+    - Name: StrobeCommandPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.StrobeCommandPosition"
+    - Name: StartCommandPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.StartCommandPosition"
+    - Name: CommandVelocity
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.CommandVelocity"
+    - Name: CommandAcceleration
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Conveyor.CommandAcceleration"
+  - Name: Cylinder01
+    Type: LogixTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cylinder01"
+  - Name: CylinderTest
+    Type: LogixTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "CylinderTest"
+  - Name: ErrorCode
+    Type: LogixTag
+    DataType: Int64
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ErrorCode"
+  - Name: GearRatio
+    Type: LogixTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "GearRatio"
+  - Name: J0
+    Type: AXIS_VIRTUAL
+    Children:
+    - Name: AxisFault
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.AxisFault"
+    - Name: PhysicalAxisFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.PhysicalAxisFault"
+    - Name: ModuleFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.ModuleFault"
+    - Name: ConfigFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.ConfigFault"
+    - Name: GroupFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.GroupFault"
+    - Name: AxisStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.AxisStatus"
+    - Name: ServoActionStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.ServoActionStatus"
+    - Name: DriveEnableStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.DriveEnableStatus"
+    - Name: ShutdownStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.ShutdownStatus"
+    - Name: ConfigUpdateInProcess
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.ConfigUpdateInProcess"
+    - Name: InhibitStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.InhibitStatus"
+    - Name: DirectControlStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.DirectControlStatus"
+    - Name: AxisUpdateStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.AxisUpdateStatus"
+    - Name: MotionStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.MotionStatus"
+    - Name: AccelStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.AccelStatus"
+    - Name: DecelStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.DecelStatus"
+    - Name: MoveStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.MoveStatus"
+    - Name: JogStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.JogStatus"
+    - Name: GearingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.GearingStatus"
+    - Name: HomingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.HomingStatus"
+    - Name: StoppingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.StoppingStatus"
+    - Name: AxisHomedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.AxisHomedStatus"
+    - Name: PositionCamStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.PositionCamStatus"
+    - Name: TimeCamStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.TimeCamStatus"
+    - Name: PositionCamPendingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.PositionCamPendingStatus"
+    - Name: TimeCamPendingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.TimeCamPendingStatus"
+    - Name: GearingLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.GearingLockStatus"
+    - Name: PositionCamLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.PositionCamLockStatus"
+    - Name: TimeCamLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.TimeCamLockStatus"
+    - Name: MasterOffsetMoveStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.MasterOffsetMoveStatus"
+    - Name: CoordinatedMotionStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.CoordinatedMotionStatus"
+    - Name: TransformStateStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.TransformStateStatus"
+    - Name: ControlledByTransformStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.ControlledByTransformStatus"
+    - Name: MoveLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.MoveLockStatus"
+    - Name: JogLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.JogLockStatus"
+    - Name: MasterOffsetMoveLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.MasterOffsetMoveLockStatus"
+    - Name: MaximumSpeedExceeded
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.MaximumSpeedExceeded"
+    - Name: AxisEvent
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.AxisEvent"
+    - Name: WatchEventArmedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.WatchEventArmedStatus"
+    - Name: WatchEventStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.WatchEventStatus"
+    - Name: RegEvent1ArmedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.RegEvent1ArmedStatus"
+    - Name: RegEvent1Status
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.RegEvent1Status"
+    - Name: RegEvent2ArmedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.RegEvent2ArmedStatus"
+    - Name: RegEvent2Status
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.RegEvent2Status"
+    - Name: HomeEventArmedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.HomeEventArmedStatus"
+    - Name: HomeEventStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.HomeEventStatus"
+    - Name: OutputCamStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.OutputCamStatus"
+    - Name: OutputCamPendingStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.OutputCamPendingStatus"
+    - Name: OutputCamLockStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.OutputCamLockStatus"
+    - Name: OutputCamTransitionStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.OutputCamTransitionStatus"
+    - Name: ActualPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.ActualPosition"
+    - Name: StrobeActualPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.StrobeActualPosition"
+    - Name: StartActualPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.StartActualPosition"
+    - Name: AverageVelocity
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.AverageVelocity"
+    - Name: ActualVelocity
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.ActualVelocity"
+    - Name: ActualAcceleration
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.ActualAcceleration"
+    - Name: WatchPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.WatchPosition"
+    - Name: Registration1Position
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.Registration1Position"
+    - Name: Registration2Position
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.Registration2Position"
+    - Name: Registration1Time
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.Registration1Time"
+    - Name: Registration2Time
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.Registration2Time"
+    - Name: InterpolationTime
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.InterpolationTime"
+    - Name: InterpolatedActualPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.InterpolatedActualPosition"
+    - Name: InterpolatedCommandPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.InterpolatedCommandPosition"
+    - Name: MasterOffset
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.MasterOffset"
+    - Name: StrobeMasterOffset
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.StrobeMasterOffset"
+    - Name: StartMasterOffset
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.StartMasterOffset"
+    - Name: CommandPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.CommandPosition"
+    - Name: StrobeCommandPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.StrobeCommandPosition"
+    - Name: StartCommandPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.StartCommandPosition"
+    - Name: CommandVelocity
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.CommandVelocity"
+    - Name: CommandAcceleration
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J0.CommandAcceleration"
+  - Name: J0_Position
+    Id: g=d23da0283e16e5d4cae1d4ece638a1c5
+    Type: LogixTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "J0_Position"
+  - Name: J1
+    Type: AXIS_VIRTUAL
+    Children:
+    - Name: AxisFault
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.AxisFault"
+    - Name: PhysicalAxisFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.PhysicalAxisFault"
+    - Name: ModuleFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.ModuleFault"
+    - Name: ConfigFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.ConfigFault"
+    - Name: GroupFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.GroupFault"
+    - Name: AxisStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.AxisStatus"
+    - Name: ServoActionStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.ServoActionStatus"
+    - Name: DriveEnableStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.DriveEnableStatus"
+    - Name: ShutdownStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.ShutdownStatus"
+    - Name: ConfigUpdateInProcess
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.ConfigUpdateInProcess"
+    - Name: InhibitStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.InhibitStatus"
+    - Name: DirectControlStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.DirectControlStatus"
+    - Name: AxisUpdateStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.AxisUpdateStatus"
+    - Name: MotionStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.MotionStatus"
+    - Name: AccelStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.AccelStatus"
+    - Name: DecelStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.DecelStatus"
+    - Name: MoveStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.MoveStatus"
+    - Name: JogStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.JogStatus"
+    - Name: GearingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.GearingStatus"
+    - Name: HomingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.HomingStatus"
+    - Name: StoppingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.StoppingStatus"
+    - Name: AxisHomedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.AxisHomedStatus"
+    - Name: PositionCamStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.PositionCamStatus"
+    - Name: TimeCamStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.TimeCamStatus"
+    - Name: PositionCamPendingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.PositionCamPendingStatus"
+    - Name: TimeCamPendingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.TimeCamPendingStatus"
+    - Name: GearingLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.GearingLockStatus"
+    - Name: PositionCamLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.PositionCamLockStatus"
+    - Name: TimeCamLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.TimeCamLockStatus"
+    - Name: MasterOffsetMoveStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.MasterOffsetMoveStatus"
+    - Name: CoordinatedMotionStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.CoordinatedMotionStatus"
+    - Name: TransformStateStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.TransformStateStatus"
+    - Name: ControlledByTransformStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.ControlledByTransformStatus"
+    - Name: MoveLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.MoveLockStatus"
+    - Name: JogLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.JogLockStatus"
+    - Name: MasterOffsetMoveLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.MasterOffsetMoveLockStatus"
+    - Name: MaximumSpeedExceeded
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.MaximumSpeedExceeded"
+    - Name: AxisEvent
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.AxisEvent"
+    - Name: WatchEventArmedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.WatchEventArmedStatus"
+    - Name: WatchEventStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.WatchEventStatus"
+    - Name: RegEvent1ArmedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.RegEvent1ArmedStatus"
+    - Name: RegEvent1Status
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.RegEvent1Status"
+    - Name: RegEvent2ArmedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.RegEvent2ArmedStatus"
+    - Name: RegEvent2Status
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.RegEvent2Status"
+    - Name: HomeEventArmedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.HomeEventArmedStatus"
+    - Name: HomeEventStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.HomeEventStatus"
+    - Name: OutputCamStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.OutputCamStatus"
+    - Name: OutputCamPendingStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.OutputCamPendingStatus"
+    - Name: OutputCamLockStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.OutputCamLockStatus"
+    - Name: OutputCamTransitionStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.OutputCamTransitionStatus"
+    - Name: ActualPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.ActualPosition"
+    - Name: StrobeActualPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.StrobeActualPosition"
+    - Name: StartActualPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.StartActualPosition"
+    - Name: AverageVelocity
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.AverageVelocity"
+    - Name: ActualVelocity
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.ActualVelocity"
+    - Name: ActualAcceleration
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.ActualAcceleration"
+    - Name: WatchPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.WatchPosition"
+    - Name: Registration1Position
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.Registration1Position"
+    - Name: Registration2Position
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.Registration2Position"
+    - Name: Registration1Time
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.Registration1Time"
+    - Name: Registration2Time
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.Registration2Time"
+    - Name: InterpolationTime
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.InterpolationTime"
+    - Name: InterpolatedActualPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.InterpolatedActualPosition"
+    - Name: InterpolatedCommandPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.InterpolatedCommandPosition"
+    - Name: MasterOffset
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.MasterOffset"
+    - Name: StrobeMasterOffset
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.StrobeMasterOffset"
+    - Name: StartMasterOffset
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.StartMasterOffset"
+    - Name: CommandPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.CommandPosition"
+    - Name: StrobeCommandPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.StrobeCommandPosition"
+    - Name: StartCommandPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.StartCommandPosition"
+    - Name: CommandVelocity
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.CommandVelocity"
+    - Name: CommandAcceleration
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J1.CommandAcceleration"
+  - Name: J1_Position
+    Type: LogixTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "J1_Position"
+  - Name: J2
+    Type: AXIS_VIRTUAL
+    Children:
+    - Name: AxisFault
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.AxisFault"
+    - Name: PhysicalAxisFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.PhysicalAxisFault"
+    - Name: ModuleFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.ModuleFault"
+    - Name: ConfigFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.ConfigFault"
+    - Name: GroupFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.GroupFault"
+    - Name: AxisStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.AxisStatus"
+    - Name: ServoActionStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.ServoActionStatus"
+    - Name: DriveEnableStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.DriveEnableStatus"
+    - Name: ShutdownStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.ShutdownStatus"
+    - Name: ConfigUpdateInProcess
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.ConfigUpdateInProcess"
+    - Name: InhibitStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.InhibitStatus"
+    - Name: DirectControlStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.DirectControlStatus"
+    - Name: AxisUpdateStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.AxisUpdateStatus"
+    - Name: MotionStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.MotionStatus"
+    - Name: AccelStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.AccelStatus"
+    - Name: DecelStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.DecelStatus"
+    - Name: MoveStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.MoveStatus"
+    - Name: JogStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.JogStatus"
+    - Name: GearingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.GearingStatus"
+    - Name: HomingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.HomingStatus"
+    - Name: StoppingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.StoppingStatus"
+    - Name: AxisHomedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.AxisHomedStatus"
+    - Name: PositionCamStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.PositionCamStatus"
+    - Name: TimeCamStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.TimeCamStatus"
+    - Name: PositionCamPendingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.PositionCamPendingStatus"
+    - Name: TimeCamPendingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.TimeCamPendingStatus"
+    - Name: GearingLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.GearingLockStatus"
+    - Name: PositionCamLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.PositionCamLockStatus"
+    - Name: TimeCamLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.TimeCamLockStatus"
+    - Name: MasterOffsetMoveStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.MasterOffsetMoveStatus"
+    - Name: CoordinatedMotionStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.CoordinatedMotionStatus"
+    - Name: TransformStateStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.TransformStateStatus"
+    - Name: ControlledByTransformStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.ControlledByTransformStatus"
+    - Name: MoveLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.MoveLockStatus"
+    - Name: JogLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.JogLockStatus"
+    - Name: MasterOffsetMoveLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.MasterOffsetMoveLockStatus"
+    - Name: MaximumSpeedExceeded
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.MaximumSpeedExceeded"
+    - Name: AxisEvent
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.AxisEvent"
+    - Name: WatchEventArmedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.WatchEventArmedStatus"
+    - Name: WatchEventStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.WatchEventStatus"
+    - Name: RegEvent1ArmedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.RegEvent1ArmedStatus"
+    - Name: RegEvent1Status
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.RegEvent1Status"
+    - Name: RegEvent2ArmedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.RegEvent2ArmedStatus"
+    - Name: RegEvent2Status
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.RegEvent2Status"
+    - Name: HomeEventArmedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.HomeEventArmedStatus"
+    - Name: HomeEventStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.HomeEventStatus"
+    - Name: OutputCamStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.OutputCamStatus"
+    - Name: OutputCamPendingStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.OutputCamPendingStatus"
+    - Name: OutputCamLockStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.OutputCamLockStatus"
+    - Name: OutputCamTransitionStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.OutputCamTransitionStatus"
+    - Name: ActualPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.ActualPosition"
+    - Name: StrobeActualPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.StrobeActualPosition"
+    - Name: StartActualPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.StartActualPosition"
+    - Name: AverageVelocity
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.AverageVelocity"
+    - Name: ActualVelocity
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.ActualVelocity"
+    - Name: ActualAcceleration
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.ActualAcceleration"
+    - Name: WatchPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.WatchPosition"
+    - Name: Registration1Position
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.Registration1Position"
+    - Name: Registration2Position
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.Registration2Position"
+    - Name: Registration1Time
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.Registration1Time"
+    - Name: Registration2Time
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.Registration2Time"
+    - Name: InterpolationTime
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.InterpolationTime"
+    - Name: InterpolatedActualPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.InterpolatedActualPosition"
+    - Name: InterpolatedCommandPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.InterpolatedCommandPosition"
+    - Name: MasterOffset
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.MasterOffset"
+    - Name: StrobeMasterOffset
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.StrobeMasterOffset"
+    - Name: StartMasterOffset
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.StartMasterOffset"
+    - Name: CommandPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.CommandPosition"
+    - Name: StrobeCommandPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.StrobeCommandPosition"
+    - Name: StartCommandPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.StartCommandPosition"
+    - Name: CommandVelocity
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.CommandVelocity"
+    - Name: CommandAcceleration
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J2.CommandAcceleration"
+  - Name: J2_Position
+    Id: g=3ec215fedd4924f5af14c2fe6e55bef2
+    Type: LogixTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "J2_Position"
+  - Name: J3
+    Type: AXIS_VIRTUAL
+    Children:
+    - Name: AxisFault
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.AxisFault"
+    - Name: PhysicalAxisFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.PhysicalAxisFault"
+    - Name: ModuleFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.ModuleFault"
+    - Name: ConfigFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.ConfigFault"
+    - Name: GroupFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.GroupFault"
+    - Name: AxisStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.AxisStatus"
+    - Name: ServoActionStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.ServoActionStatus"
+    - Name: DriveEnableStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.DriveEnableStatus"
+    - Name: ShutdownStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.ShutdownStatus"
+    - Name: ConfigUpdateInProcess
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.ConfigUpdateInProcess"
+    - Name: InhibitStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.InhibitStatus"
+    - Name: DirectControlStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.DirectControlStatus"
+    - Name: AxisUpdateStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.AxisUpdateStatus"
+    - Name: MotionStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.MotionStatus"
+    - Name: AccelStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.AccelStatus"
+    - Name: DecelStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.DecelStatus"
+    - Name: MoveStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.MoveStatus"
+    - Name: JogStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.JogStatus"
+    - Name: GearingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.GearingStatus"
+    - Name: HomingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.HomingStatus"
+    - Name: StoppingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.StoppingStatus"
+    - Name: AxisHomedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.AxisHomedStatus"
+    - Name: PositionCamStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.PositionCamStatus"
+    - Name: TimeCamStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.TimeCamStatus"
+    - Name: PositionCamPendingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.PositionCamPendingStatus"
+    - Name: TimeCamPendingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.TimeCamPendingStatus"
+    - Name: GearingLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.GearingLockStatus"
+    - Name: PositionCamLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.PositionCamLockStatus"
+    - Name: TimeCamLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.TimeCamLockStatus"
+    - Name: MasterOffsetMoveStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.MasterOffsetMoveStatus"
+    - Name: CoordinatedMotionStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.CoordinatedMotionStatus"
+    - Name: TransformStateStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.TransformStateStatus"
+    - Name: ControlledByTransformStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.ControlledByTransformStatus"
+    - Name: MoveLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.MoveLockStatus"
+    - Name: JogLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.JogLockStatus"
+    - Name: MasterOffsetMoveLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.MasterOffsetMoveLockStatus"
+    - Name: MaximumSpeedExceeded
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.MaximumSpeedExceeded"
+    - Name: AxisEvent
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.AxisEvent"
+    - Name: WatchEventArmedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.WatchEventArmedStatus"
+    - Name: WatchEventStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.WatchEventStatus"
+    - Name: RegEvent1ArmedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.RegEvent1ArmedStatus"
+    - Name: RegEvent1Status
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.RegEvent1Status"
+    - Name: RegEvent2ArmedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.RegEvent2ArmedStatus"
+    - Name: RegEvent2Status
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.RegEvent2Status"
+    - Name: HomeEventArmedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.HomeEventArmedStatus"
+    - Name: HomeEventStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.HomeEventStatus"
+    - Name: OutputCamStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.OutputCamStatus"
+    - Name: OutputCamPendingStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.OutputCamPendingStatus"
+    - Name: OutputCamLockStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.OutputCamLockStatus"
+    - Name: OutputCamTransitionStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.OutputCamTransitionStatus"
+    - Name: ActualPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.ActualPosition"
+    - Name: StrobeActualPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.StrobeActualPosition"
+    - Name: StartActualPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.StartActualPosition"
+    - Name: AverageVelocity
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.AverageVelocity"
+    - Name: ActualVelocity
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.ActualVelocity"
+    - Name: ActualAcceleration
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.ActualAcceleration"
+    - Name: WatchPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.WatchPosition"
+    - Name: Registration1Position
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.Registration1Position"
+    - Name: Registration2Position
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.Registration2Position"
+    - Name: Registration1Time
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.Registration1Time"
+    - Name: Registration2Time
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.Registration2Time"
+    - Name: InterpolationTime
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.InterpolationTime"
+    - Name: InterpolatedActualPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.InterpolatedActualPosition"
+    - Name: InterpolatedCommandPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.InterpolatedCommandPosition"
+    - Name: MasterOffset
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.MasterOffset"
+    - Name: StrobeMasterOffset
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.StrobeMasterOffset"
+    - Name: StartMasterOffset
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.StartMasterOffset"
+    - Name: CommandPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.CommandPosition"
+    - Name: StrobeCommandPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.StrobeCommandPosition"
+    - Name: StartCommandPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.StartCommandPosition"
+    - Name: CommandVelocity
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.CommandVelocity"
+    - Name: CommandAcceleration
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "J3.CommandAcceleration"
+  - Name: J3_Position
+    Id: g=ac162b09513724071590c3845d5ef914
+    Type: LogixTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "J3_Position"
+  - Name: MAOC_Input
+    Type: LogixTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MAOC_Input"
+  - Name: MAOC_Output
+    Type: LogixTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MAOC_Output"
+  - Name: Master
+    Type: AXIS_VIRTUAL
+    Children:
+    - Name: AxisFault
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.AxisFault"
+    - Name: PhysicalAxisFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.PhysicalAxisFault"
+    - Name: ModuleFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.ModuleFault"
+    - Name: ConfigFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.ConfigFault"
+    - Name: GroupFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.GroupFault"
+    - Name: AxisStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.AxisStatus"
+    - Name: ServoActionStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.ServoActionStatus"
+    - Name: DriveEnableStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.DriveEnableStatus"
+    - Name: ShutdownStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.ShutdownStatus"
+    - Name: ConfigUpdateInProcess
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.ConfigUpdateInProcess"
+    - Name: InhibitStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.InhibitStatus"
+    - Name: DirectControlStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.DirectControlStatus"
+    - Name: AxisUpdateStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.AxisUpdateStatus"
+    - Name: MotionStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.MotionStatus"
+    - Name: AccelStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.AccelStatus"
+    - Name: DecelStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.DecelStatus"
+    - Name: MoveStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.MoveStatus"
+    - Name: JogStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.JogStatus"
+    - Name: GearingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.GearingStatus"
+    - Name: HomingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.HomingStatus"
+    - Name: StoppingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.StoppingStatus"
+    - Name: AxisHomedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.AxisHomedStatus"
+    - Name: PositionCamStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.PositionCamStatus"
+    - Name: TimeCamStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.TimeCamStatus"
+    - Name: PositionCamPendingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.PositionCamPendingStatus"
+    - Name: TimeCamPendingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.TimeCamPendingStatus"
+    - Name: GearingLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.GearingLockStatus"
+    - Name: PositionCamLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.PositionCamLockStatus"
+    - Name: TimeCamLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.TimeCamLockStatus"
+    - Name: MasterOffsetMoveStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.MasterOffsetMoveStatus"
+    - Name: CoordinatedMotionStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.CoordinatedMotionStatus"
+    - Name: TransformStateStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.TransformStateStatus"
+    - Name: ControlledByTransformStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.ControlledByTransformStatus"
+    - Name: MoveLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.MoveLockStatus"
+    - Name: JogLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.JogLockStatus"
+    - Name: MasterOffsetMoveLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.MasterOffsetMoveLockStatus"
+    - Name: MaximumSpeedExceeded
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.MaximumSpeedExceeded"
+    - Name: AxisEvent
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.AxisEvent"
+    - Name: WatchEventArmedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.WatchEventArmedStatus"
+    - Name: WatchEventStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.WatchEventStatus"
+    - Name: RegEvent1ArmedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.RegEvent1ArmedStatus"
+    - Name: RegEvent1Status
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.RegEvent1Status"
+    - Name: RegEvent2ArmedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.RegEvent2ArmedStatus"
+    - Name: RegEvent2Status
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.RegEvent2Status"
+    - Name: HomeEventArmedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.HomeEventArmedStatus"
+    - Name: HomeEventStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.HomeEventStatus"
+    - Name: OutputCamStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.OutputCamStatus"
+    - Name: OutputCamPendingStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.OutputCamPendingStatus"
+    - Name: OutputCamLockStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.OutputCamLockStatus"
+    - Name: OutputCamTransitionStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.OutputCamTransitionStatus"
+    - Name: ActualPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.ActualPosition"
+    - Name: StrobeActualPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.StrobeActualPosition"
+    - Name: StartActualPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.StartActualPosition"
+    - Name: AverageVelocity
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.AverageVelocity"
+    - Name: ActualVelocity
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.ActualVelocity"
+    - Name: ActualAcceleration
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.ActualAcceleration"
+    - Name: WatchPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.WatchPosition"
+    - Name: Registration1Position
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.Registration1Position"
+    - Name: Registration2Position
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.Registration2Position"
+    - Name: Registration1Time
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.Registration1Time"
+    - Name: Registration2Time
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.Registration2Time"
+    - Name: InterpolationTime
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.InterpolationTime"
+    - Name: InterpolatedActualPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.InterpolatedActualPosition"
+    - Name: InterpolatedCommandPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.InterpolatedCommandPosition"
+    - Name: MasterOffset
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.MasterOffset"
+    - Name: StrobeMasterOffset
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.StrobeMasterOffset"
+    - Name: StartMasterOffset
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.StartMasterOffset"
+    - Name: CommandPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.CommandPosition"
+    - Name: StrobeCommandPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.StrobeCommandPosition"
+    - Name: StartCommandPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.StartCommandPosition"
+    - Name: CommandVelocity
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.CommandVelocity"
+    - Name: CommandAcceleration
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Master.CommandAcceleration"
+  - Name: MG
+    Type: MOTION_GROUP
+    Children:
+    - Name: GroupStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MG.GroupStatus"
+    - Name: InhibStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MG.InhibStatus"
+    - Name: GroupSynced
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MG.GroupSynced"
+    - Name: AxisInhibitStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MG.AxisInhibitStatus"
+    - Name: GroupFault
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MG.GroupFault"
+    - Name: GroupOverlapFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MG.GroupOverlapFault"
+    - Name: CSTLossFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MG.CSTLossFault"
+    - Name: GroupTaskLoadingFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MG.GroupTaskLoadingFault"
+    - Name: ClockSyncFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MG.ClockSyncFault"
+    - Name: GroupAlarm
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MG.GroupAlarm"
+    - Name: ClockSyncAlarm
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MG.ClockSyncAlarm"
+    - Name: AxisFault
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MG.AxisFault"
+    - Name: PhysicalAxisFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MG.PhysicalAxisFault"
+    - Name: ModuleFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MG.ModuleFault"
+    - Name: ConfigFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MG.ConfigFault"
+    - Name: TaskMaxScanTime
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MG.TaskMaxScanTime"
+    - Name: TaskLastScanTime
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MG.TaskLastScanTime"
+    - Name: TaskLastIOTime
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MG.TaskLastIOTime"
+    - Name: TaskMaxIOTime
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MG.TaskMaxIOTime"
+    - Name: TaskAverageScanTime
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MG.TaskAverageScanTime"
+    - Name: TaskAverageIOTime
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MG.TaskAverageIOTime"
+  - Name: MI_MAG
+    Type: MOTION_INSTRUCTION
+    Children:
+    - Name: FLAGS
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MI_MAG.FLAGS"
+    - Name: EN
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MI_MAG.EN"
+    - Name: DN
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MI_MAG.DN"
+    - Name: ER
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MI_MAG.ER"
+    - Name: PC
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MI_MAG.PC"
+    - Name: IP
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MI_MAG.IP"
+    - Name: AC
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MI_MAG.AC"
+    - Name: ACCEL
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MI_MAG.ACCEL"
+    - Name: DECEL
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MI_MAG.DECEL"
+    - Name: TrackingMaster
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MI_MAG.TrackingMaster"
+    - Name: CalculatedDataAvailable
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MI_MAG.CalculatedDataAvailable"
+    - Name: ERR
+      Type: LogixTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MI_MAG.ERR"
+    - Name: STATUS
+      Type: LogixTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MI_MAG.STATUS"
+    - Name: STATE
+      Type: LogixTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MI_MAG.STATE"
+    - Name: SEGMENT
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MI_MAG.SEGMENT"
+    - Name: EXERR
+      Type: LogixTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MI_MAG.EXERR"
+  - Name: MI_MAOC
+    Type: MOTION_INSTRUCTION
+    Children:
+    - Name: FLAGS
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MI_MAOC.FLAGS"
+    - Name: EN
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MI_MAOC.EN"
+    - Name: DN
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MI_MAOC.DN"
+    - Name: ER
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MI_MAOC.ER"
+    - Name: PC
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MI_MAOC.PC"
+    - Name: IP
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MI_MAOC.IP"
+    - Name: AC
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MI_MAOC.AC"
+    - Name: ACCEL
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MI_MAOC.ACCEL"
+    - Name: DECEL
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MI_MAOC.DECEL"
+    - Name: TrackingMaster
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MI_MAOC.TrackingMaster"
+    - Name: CalculatedDataAvailable
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MI_MAOC.CalculatedDataAvailable"
+    - Name: ERR
+      Type: LogixTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MI_MAOC.ERR"
+    - Name: STATUS
+      Type: LogixTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MI_MAOC.STATUS"
+    - Name: STATE
+      Type: LogixTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MI_MAOC.STATE"
+    - Name: SEGMENT
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MI_MAOC.SEGMENT"
+    - Name: EXERR
+      Type: LogixTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "MI_MAOC.EXERR"
+  - Name: OutputCam
+    Type: TagStructureArray
+    Children:
+    - Name: ArrayDimensions
+      Type: PropertyType
+      DataType: UInt32
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [16]
+    - Name: 0
+      Type: OUTPUT_CAM
+      Children:
+      - Name: OutputBit
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[0].OutputBit"
+      - Name: LatchType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[0].LatchType"
+      - Name: UnlatchType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[0].UnlatchType"
+      - Name: Left
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[0].Left"
+      - Name: Right
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[0].Right"
+      - Name: Duration
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[0].Duration"
+      - Name: EnableType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[0].EnableType"
+      - Name: EnableBit
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[0].EnableBit"
+    - Name: 1
+      Type: OUTPUT_CAM
+      Children:
+      - Name: OutputBit
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[1].OutputBit"
+      - Name: LatchType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[1].LatchType"
+      - Name: UnlatchType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[1].UnlatchType"
+      - Name: Left
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[1].Left"
+      - Name: Right
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[1].Right"
+      - Name: Duration
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[1].Duration"
+      - Name: EnableType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[1].EnableType"
+      - Name: EnableBit
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[1].EnableBit"
+    - Name: 2
+      Type: OUTPUT_CAM
+      Children:
+      - Name: OutputBit
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[2].OutputBit"
+      - Name: LatchType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[2].LatchType"
+      - Name: UnlatchType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[2].UnlatchType"
+      - Name: Left
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[2].Left"
+      - Name: Right
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[2].Right"
+      - Name: Duration
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[2].Duration"
+      - Name: EnableType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[2].EnableType"
+      - Name: EnableBit
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[2].EnableBit"
+    - Name: 3
+      Type: OUTPUT_CAM
+      Children:
+      - Name: OutputBit
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[3].OutputBit"
+      - Name: LatchType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[3].LatchType"
+      - Name: UnlatchType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[3].UnlatchType"
+      - Name: Left
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[3].Left"
+      - Name: Right
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[3].Right"
+      - Name: Duration
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[3].Duration"
+      - Name: EnableType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[3].EnableType"
+      - Name: EnableBit
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[3].EnableBit"
+    - Name: 4
+      Type: OUTPUT_CAM
+      Children:
+      - Name: OutputBit
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[4].OutputBit"
+      - Name: LatchType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[4].LatchType"
+      - Name: UnlatchType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[4].UnlatchType"
+      - Name: Left
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[4].Left"
+      - Name: Right
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[4].Right"
+      - Name: Duration
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[4].Duration"
+      - Name: EnableType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[4].EnableType"
+      - Name: EnableBit
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[4].EnableBit"
+    - Name: 5
+      Type: OUTPUT_CAM
+      Children:
+      - Name: OutputBit
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[5].OutputBit"
+      - Name: LatchType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[5].LatchType"
+      - Name: UnlatchType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[5].UnlatchType"
+      - Name: Left
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[5].Left"
+      - Name: Right
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[5].Right"
+      - Name: Duration
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[5].Duration"
+      - Name: EnableType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[5].EnableType"
+      - Name: EnableBit
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[5].EnableBit"
+    - Name: 6
+      Type: OUTPUT_CAM
+      Children:
+      - Name: OutputBit
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[6].OutputBit"
+      - Name: LatchType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[6].LatchType"
+      - Name: UnlatchType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[6].UnlatchType"
+      - Name: Left
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[6].Left"
+      - Name: Right
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[6].Right"
+      - Name: Duration
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[6].Duration"
+      - Name: EnableType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[6].EnableType"
+      - Name: EnableBit
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[6].EnableBit"
+    - Name: 7
+      Type: OUTPUT_CAM
+      Children:
+      - Name: OutputBit
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[7].OutputBit"
+      - Name: LatchType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[7].LatchType"
+      - Name: UnlatchType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[7].UnlatchType"
+      - Name: Left
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[7].Left"
+      - Name: Right
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[7].Right"
+      - Name: Duration
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[7].Duration"
+      - Name: EnableType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[7].EnableType"
+      - Name: EnableBit
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[7].EnableBit"
+    - Name: 8
+      Type: OUTPUT_CAM
+      Children:
+      - Name: OutputBit
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[8].OutputBit"
+      - Name: LatchType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[8].LatchType"
+      - Name: UnlatchType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[8].UnlatchType"
+      - Name: Left
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[8].Left"
+      - Name: Right
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[8].Right"
+      - Name: Duration
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[8].Duration"
+      - Name: EnableType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[8].EnableType"
+      - Name: EnableBit
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[8].EnableBit"
+    - Name: 9
+      Type: OUTPUT_CAM
+      Children:
+      - Name: OutputBit
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[9].OutputBit"
+      - Name: LatchType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[9].LatchType"
+      - Name: UnlatchType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[9].UnlatchType"
+      - Name: Left
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[9].Left"
+      - Name: Right
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[9].Right"
+      - Name: Duration
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[9].Duration"
+      - Name: EnableType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[9].EnableType"
+      - Name: EnableBit
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[9].EnableBit"
+    - Name: 10
+      Type: OUTPUT_CAM
+      Children:
+      - Name: OutputBit
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[10].OutputBit"
+      - Name: LatchType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[10].LatchType"
+      - Name: UnlatchType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[10].UnlatchType"
+      - Name: Left
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[10].Left"
+      - Name: Right
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[10].Right"
+      - Name: Duration
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[10].Duration"
+      - Name: EnableType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[10].EnableType"
+      - Name: EnableBit
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[10].EnableBit"
+    - Name: 11
+      Type: OUTPUT_CAM
+      Children:
+      - Name: OutputBit
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[11].OutputBit"
+      - Name: LatchType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[11].LatchType"
+      - Name: UnlatchType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[11].UnlatchType"
+      - Name: Left
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[11].Left"
+      - Name: Right
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[11].Right"
+      - Name: Duration
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[11].Duration"
+      - Name: EnableType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[11].EnableType"
+      - Name: EnableBit
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[11].EnableBit"
+    - Name: 12
+      Type: OUTPUT_CAM
+      Children:
+      - Name: OutputBit
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[12].OutputBit"
+      - Name: LatchType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[12].LatchType"
+      - Name: UnlatchType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[12].UnlatchType"
+      - Name: Left
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[12].Left"
+      - Name: Right
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[12].Right"
+      - Name: Duration
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[12].Duration"
+      - Name: EnableType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[12].EnableType"
+      - Name: EnableBit
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[12].EnableBit"
+    - Name: 13
+      Type: OUTPUT_CAM
+      Children:
+      - Name: OutputBit
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[13].OutputBit"
+      - Name: LatchType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[13].LatchType"
+      - Name: UnlatchType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[13].UnlatchType"
+      - Name: Left
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[13].Left"
+      - Name: Right
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[13].Right"
+      - Name: Duration
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[13].Duration"
+      - Name: EnableType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[13].EnableType"
+      - Name: EnableBit
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[13].EnableBit"
+    - Name: 14
+      Type: OUTPUT_CAM
+      Children:
+      - Name: OutputBit
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[14].OutputBit"
+      - Name: LatchType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[14].LatchType"
+      - Name: UnlatchType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[14].UnlatchType"
+      - Name: Left
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[14].Left"
+      - Name: Right
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[14].Right"
+      - Name: Duration
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[14].Duration"
+      - Name: EnableType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[14].EnableType"
+      - Name: EnableBit
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[14].EnableBit"
+    - Name: 15
+      Type: OUTPUT_CAM
+      Children:
+      - Name: OutputBit
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[15].OutputBit"
+      - Name: LatchType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[15].LatchType"
+      - Name: UnlatchType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[15].UnlatchType"
+      - Name: Left
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[15].Left"
+      - Name: Right
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[15].Right"
+      - Name: Duration
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[15].Duration"
+      - Name: EnableType
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[15].EnableType"
+      - Name: EnableBit
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputCam[15].EnableBit"
+  - Name: OutputComp
+    Type: TagStructureArray
+    Children:
+    - Name: ArrayDimensions
+      Type: PropertyType
+      DataType: UInt32
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [16]
+    - Name: 0
+      Type: OUTPUT_COMPENSATION
+      Children:
+      - Name: Offset
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[0].Offset"
+      - Name: LatchDelay
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[0].LatchDelay"
+      - Name: UnlatchDelay
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[0].UnlatchDelay"
+      - Name: Mode
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[0].Mode"
+      - Name: CycleTime
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[0].CycleTime"
+      - Name: DutyCycle
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[0].DutyCycle"
+    - Name: 1
+      Type: OUTPUT_COMPENSATION
+      Children:
+      - Name: Offset
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[1].Offset"
+      - Name: LatchDelay
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[1].LatchDelay"
+      - Name: UnlatchDelay
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[1].UnlatchDelay"
+      - Name: Mode
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[1].Mode"
+      - Name: CycleTime
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[1].CycleTime"
+      - Name: DutyCycle
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[1].DutyCycle"
+    - Name: 2
+      Type: OUTPUT_COMPENSATION
+      Children:
+      - Name: Offset
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[2].Offset"
+      - Name: LatchDelay
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[2].LatchDelay"
+      - Name: UnlatchDelay
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[2].UnlatchDelay"
+      - Name: Mode
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[2].Mode"
+      - Name: CycleTime
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[2].CycleTime"
+      - Name: DutyCycle
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[2].DutyCycle"
+    - Name: 3
+      Type: OUTPUT_COMPENSATION
+      Children:
+      - Name: Offset
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[3].Offset"
+      - Name: LatchDelay
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[3].LatchDelay"
+      - Name: UnlatchDelay
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[3].UnlatchDelay"
+      - Name: Mode
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[3].Mode"
+      - Name: CycleTime
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[3].CycleTime"
+      - Name: DutyCycle
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[3].DutyCycle"
+    - Name: 4
+      Type: OUTPUT_COMPENSATION
+      Children:
+      - Name: Offset
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[4].Offset"
+      - Name: LatchDelay
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[4].LatchDelay"
+      - Name: UnlatchDelay
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[4].UnlatchDelay"
+      - Name: Mode
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[4].Mode"
+      - Name: CycleTime
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[4].CycleTime"
+      - Name: DutyCycle
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[4].DutyCycle"
+    - Name: 5
+      Type: OUTPUT_COMPENSATION
+      Children:
+      - Name: Offset
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[5].Offset"
+      - Name: LatchDelay
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[5].LatchDelay"
+      - Name: UnlatchDelay
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[5].UnlatchDelay"
+      - Name: Mode
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[5].Mode"
+      - Name: CycleTime
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[5].CycleTime"
+      - Name: DutyCycle
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[5].DutyCycle"
+    - Name: 6
+      Type: OUTPUT_COMPENSATION
+      Children:
+      - Name: Offset
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[6].Offset"
+      - Name: LatchDelay
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[6].LatchDelay"
+      - Name: UnlatchDelay
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[6].UnlatchDelay"
+      - Name: Mode
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[6].Mode"
+      - Name: CycleTime
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[6].CycleTime"
+      - Name: DutyCycle
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[6].DutyCycle"
+    - Name: 7
+      Type: OUTPUT_COMPENSATION
+      Children:
+      - Name: Offset
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[7].Offset"
+      - Name: LatchDelay
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[7].LatchDelay"
+      - Name: UnlatchDelay
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[7].UnlatchDelay"
+      - Name: Mode
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[7].Mode"
+      - Name: CycleTime
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[7].CycleTime"
+      - Name: DutyCycle
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[7].DutyCycle"
+    - Name: 8
+      Type: OUTPUT_COMPENSATION
+      Children:
+      - Name: Offset
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[8].Offset"
+      - Name: LatchDelay
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[8].LatchDelay"
+      - Name: UnlatchDelay
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[8].UnlatchDelay"
+      - Name: Mode
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[8].Mode"
+      - Name: CycleTime
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[8].CycleTime"
+      - Name: DutyCycle
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[8].DutyCycle"
+    - Name: 9
+      Type: OUTPUT_COMPENSATION
+      Children:
+      - Name: Offset
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[9].Offset"
+      - Name: LatchDelay
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[9].LatchDelay"
+      - Name: UnlatchDelay
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[9].UnlatchDelay"
+      - Name: Mode
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[9].Mode"
+      - Name: CycleTime
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[9].CycleTime"
+      - Name: DutyCycle
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[9].DutyCycle"
+    - Name: 10
+      Type: OUTPUT_COMPENSATION
+      Children:
+      - Name: Offset
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[10].Offset"
+      - Name: LatchDelay
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[10].LatchDelay"
+      - Name: UnlatchDelay
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[10].UnlatchDelay"
+      - Name: Mode
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[10].Mode"
+      - Name: CycleTime
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[10].CycleTime"
+      - Name: DutyCycle
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[10].DutyCycle"
+    - Name: 11
+      Type: OUTPUT_COMPENSATION
+      Children:
+      - Name: Offset
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[11].Offset"
+      - Name: LatchDelay
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[11].LatchDelay"
+      - Name: UnlatchDelay
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[11].UnlatchDelay"
+      - Name: Mode
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[11].Mode"
+      - Name: CycleTime
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[11].CycleTime"
+      - Name: DutyCycle
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[11].DutyCycle"
+    - Name: 12
+      Type: OUTPUT_COMPENSATION
+      Children:
+      - Name: Offset
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[12].Offset"
+      - Name: LatchDelay
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[12].LatchDelay"
+      - Name: UnlatchDelay
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[12].UnlatchDelay"
+      - Name: Mode
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[12].Mode"
+      - Name: CycleTime
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[12].CycleTime"
+      - Name: DutyCycle
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[12].DutyCycle"
+    - Name: 13
+      Type: OUTPUT_COMPENSATION
+      Children:
+      - Name: Offset
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[13].Offset"
+      - Name: LatchDelay
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[13].LatchDelay"
+      - Name: UnlatchDelay
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[13].UnlatchDelay"
+      - Name: Mode
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[13].Mode"
+      - Name: CycleTime
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[13].CycleTime"
+      - Name: DutyCycle
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[13].DutyCycle"
+    - Name: 14
+      Type: OUTPUT_COMPENSATION
+      Children:
+      - Name: Offset
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[14].Offset"
+      - Name: LatchDelay
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[14].LatchDelay"
+      - Name: UnlatchDelay
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[14].UnlatchDelay"
+      - Name: Mode
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[14].Mode"
+      - Name: CycleTime
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[14].CycleTime"
+      - Name: DutyCycle
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[14].DutyCycle"
+    - Name: 15
+      Type: OUTPUT_COMPENSATION
+      Children:
+      - Name: Offset
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[15].Offset"
+      - Name: LatchDelay
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[15].LatchDelay"
+      - Name: UnlatchDelay
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[15].UnlatchDelay"
+      - Name: Mode
+        Type: LogixTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[15].Mode"
+      - Name: CycleTime
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[15].CycleTime"
+      - Name: DutyCycle
+        Type: LogixTag
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OutputComp[15].DutyCycle"
+  - Name: Refresh
+    Id: g=b394b55ce41baa433004717f2908c276
+    Type: LogixTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Refresh"
+  - Name: Sensor
+    Type: LogixTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sensor"
+  - Name: Slave
+    Type: AXIS_VIRTUAL
+    Children:
+    - Name: AxisFault
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.AxisFault"
+    - Name: PhysicalAxisFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.PhysicalAxisFault"
+    - Name: ModuleFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.ModuleFault"
+    - Name: ConfigFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.ConfigFault"
+    - Name: GroupFault
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.GroupFault"
+    - Name: AxisStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.AxisStatus"
+    - Name: ServoActionStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.ServoActionStatus"
+    - Name: DriveEnableStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.DriveEnableStatus"
+    - Name: ShutdownStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.ShutdownStatus"
+    - Name: ConfigUpdateInProcess
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.ConfigUpdateInProcess"
+    - Name: InhibitStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.InhibitStatus"
+    - Name: DirectControlStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.DirectControlStatus"
+    - Name: AxisUpdateStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.AxisUpdateStatus"
+    - Name: MotionStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.MotionStatus"
+    - Name: AccelStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.AccelStatus"
+    - Name: DecelStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.DecelStatus"
+    - Name: MoveStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.MoveStatus"
+    - Name: JogStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.JogStatus"
+    - Name: GearingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.GearingStatus"
+    - Name: HomingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.HomingStatus"
+    - Name: StoppingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.StoppingStatus"
+    - Name: AxisHomedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.AxisHomedStatus"
+    - Name: PositionCamStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.PositionCamStatus"
+    - Name: TimeCamStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.TimeCamStatus"
+    - Name: PositionCamPendingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.PositionCamPendingStatus"
+    - Name: TimeCamPendingStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.TimeCamPendingStatus"
+    - Name: GearingLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.GearingLockStatus"
+    - Name: PositionCamLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.PositionCamLockStatus"
+    - Name: TimeCamLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.TimeCamLockStatus"
+    - Name: MasterOffsetMoveStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.MasterOffsetMoveStatus"
+    - Name: CoordinatedMotionStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.CoordinatedMotionStatus"
+    - Name: TransformStateStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.TransformStateStatus"
+    - Name: ControlledByTransformStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.ControlledByTransformStatus"
+    - Name: MoveLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.MoveLockStatus"
+    - Name: JogLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.JogLockStatus"
+    - Name: MasterOffsetMoveLockStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.MasterOffsetMoveLockStatus"
+    - Name: MaximumSpeedExceeded
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.MaximumSpeedExceeded"
+    - Name: AxisEvent
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.AxisEvent"
+    - Name: WatchEventArmedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.WatchEventArmedStatus"
+    - Name: WatchEventStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.WatchEventStatus"
+    - Name: RegEvent1ArmedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.RegEvent1ArmedStatus"
+    - Name: RegEvent1Status
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.RegEvent1Status"
+    - Name: RegEvent2ArmedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.RegEvent2ArmedStatus"
+    - Name: RegEvent2Status
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.RegEvent2Status"
+    - Name: HomeEventArmedStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.HomeEventArmedStatus"
+    - Name: HomeEventStatus
+      Type: LogixTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.HomeEventStatus"
+    - Name: OutputCamStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.OutputCamStatus"
+    - Name: OutputCamPendingStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.OutputCamPendingStatus"
+    - Name: OutputCamLockStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.OutputCamLockStatus"
+    - Name: OutputCamTransitionStatus
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.OutputCamTransitionStatus"
+    - Name: ActualPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.ActualPosition"
+    - Name: StrobeActualPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.StrobeActualPosition"
+    - Name: StartActualPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.StartActualPosition"
+    - Name: AverageVelocity
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.AverageVelocity"
+    - Name: ActualVelocity
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.ActualVelocity"
+    - Name: ActualAcceleration
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.ActualAcceleration"
+    - Name: WatchPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.WatchPosition"
+    - Name: Registration1Position
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.Registration1Position"
+    - Name: Registration2Position
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.Registration2Position"
+    - Name: Registration1Time
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.Registration1Time"
+    - Name: Registration2Time
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.Registration2Time"
+    - Name: InterpolationTime
+      Type: LogixTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.InterpolationTime"
+    - Name: InterpolatedActualPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.InterpolatedActualPosition"
+    - Name: InterpolatedCommandPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.InterpolatedCommandPosition"
+    - Name: MasterOffset
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.MasterOffset"
+    - Name: StrobeMasterOffset
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.StrobeMasterOffset"
+    - Name: StartMasterOffset
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.StartMasterOffset"
+    - Name: CommandPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.CommandPosition"
+    - Name: StrobeCommandPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.StrobeCommandPosition"
+    - Name: StartCommandPosition
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.StartCommandPosition"
+    - Name: CommandVelocity
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.CommandVelocity"
+    - Name: CommandAcceleration
+      Type: LogixTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Slave.CommandAcceleration"
+  - Name: StartMove
+    Type: LogixTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "StartMove"
+  - Name: TargetPosition
+    Type: LogixTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "TargetPosition"
+  - Name: TargetPosition_J0
+    Type: LogixTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "TargetPosition_J0"
+  - Name: TargetPosition_J1
+    Type: LogixTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "TargetPosition_J1"
+  - Name: TargetPosition_J2
+    Type: LogixTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "TargetPosition_J2"
+  - Name: TargetPosition_J3
+    Type: LogixTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "TargetPosition_J3"
+  - Name: Test
+    Type: LogixTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Test"
+- Name: 'Program:MainProgram'
+  Type: TagStructure
+  Children:
+  - Name: Enable
+    Type: LogixTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Enable"

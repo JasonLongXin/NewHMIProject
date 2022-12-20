@@ -9,8 +9,10 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [1,2],
+    "Dimensions": [3,3],
     "Body": [
-     "","en-US"
+     "","en-US","zh-CN",
+     "Emulate3D","Emulate3D","3D仿真",
+     "FactoryTalk","FactoryTalk","罗克韦尔FT"
     ]
    }

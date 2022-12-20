@@ -1,0 +1,119 @@
+Name: Motors
+Id: g=95648df72fcc281c57f63f08693fed2c
+Type: FolderType
+Children:
+- Name: Motor1
+  Type: MotorType
+  Children:
+  - Name: Sts_Err
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Sts_Running
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Sts_Stop
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 12.0
+  - Name: Torque
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 56.0
+- Name: Motor2
+  Type: MotorType
+  Children:
+  - Name: Sts_Err
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Sts_Running
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Sts_Stop
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Torque
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+- Name: Motor3
+  Type: MotorType
+  Children:
+  - Name: Sts_Err
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Sts_Running
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Sts_Stop
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 45.0
+  - Name: Torque
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 85.0
+- Name: Motor4
+  Type: MotorType
+  Children:
+  - Name: Sts_Err
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Sts_Running
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Sts_Stop
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 72.0
+  - Name: Torque
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 96.0
+- Name: Motor5
+  Type: MotorType
+  Children:
+  - Name: Sts_Err
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Sts_Running
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Sts_Stop
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 76.0
+  - Name: Torque
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 89.0

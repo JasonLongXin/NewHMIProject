@@ -1,2 +1,77 @@
 Name: Converters
 Type: FolderType
+Children:
+- Name: ExpressionEvaluatorAvg
+  Id: g=3a2ed75932198fab8293fe98a49f3898
+  Supertype: ExpressionEvaluator
+  ReferenceType: HasComponent
+  Children:
+  - Name: Source0
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    Value: {"Type":6,"Body":0}
+  - Name: Source1
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    Value: {"Type":6,"Body":0}
+  - Name: Source2
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    Value: {"Type":6,"Body":0}
+  - Name: Expression
+    Type: BaseDataVariableType
+    DataType: String
+    ReferenceType: HasParameter
+    ModellingRule: Optional
+    Value: "({0})*avg({1},{2})"
+- Name: DynamicColor
+  Id: g=db9eac0c55914129c54aa5d270442ed2
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ModellingRule: None
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#00000000"
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ModellingRule: None
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#00000000"
+    - Name: Pair2
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: NodeId
+        ModellingRule: None
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#00000000"

@@ -1,3 +1,106 @@
 Name: Users
 Id: g=4e055bf99b3badf44252159a7cd38fbe
 Type: FolderType
+Children:
+- Name: Alice
+  Id: g=ba5ae1b96fc2cc5aabdf347b1efba938
+  Type: UserType
+  Children:
+  - Name: LocaleIds
+    Id: g=4d25f9e65031a730479c1d604d8412bf
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+  - Name: Languages
+    Id: g=4a4f50a2fa7255b0a29fb73e22a3d226
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+  - Name: Domain
+    Id: g=e0ebc8fe86183ed082c1a44fd96d2912
+    Type: BaseVariableType
+    DataType: String
+    ReferenceType: HasProperty
+    Value: ""
+  - Name: Password
+    Id: g=72a758938ca113f8285529a4200e121f
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Value: ""
+    Children:
+    - Name: Hash
+      Id: g=7d8061e4fa2b4b92d8342c241cd96e20
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: {"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[76,63,233,172,196,189,144,146,172,179,236,88,168,9,133,83,33,47,157,89,158,235,195,235,199,19,141,206,94,248,52,233],"Salt":[163,214,1,157,13,8,112,79,147,68,1,132,118,120,173,93,243,15,63,168,48,211,133,89,99,239,62,181,57,57,208,25]}}
+    - Name: ChangeTimestamp
+      Id: g=97240616e3fb3bf1371a279bc91c08b8
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2022-11-24T03:02:39.9259532"
+    - Name: History
+      Id: g=60e09aeac6b33e6ffad22300724fe47a
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[76,63,233,172,196,189,144,146,172,179,236,88,168,9,133,83,33,47,157,89,158,235,195,235,199,19,141,206,94,248,52,233],"Salt":[163,214,1,157,13,8,112,79,147,68,1,132,118,120,173,93,243,15,63,168,48,211,133,89,99,239,62,181,57,57,208,25]}}]
+- Name: Jason
+  Id: g=ba51a6fd8ccdbef55c36bf15710e0d2a
+  Type: UserType
+  Children:
+  - Name: LocaleIds
+    Id: g=587d1baaed3108c3b44683f0929ce0fa
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["zh-CN"]
+  - Name: Languages
+    Id: g=b7b38f606be18b94e170539e31d05224
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["zh-CN"]
+  - Name: Password
+    Id: g=737d603c19d00dac11ff5a699108c432
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Value: ""
+    Children:
+    - Name: Hash
+      Id: g=d63cbc947a25efab99a2002aef5b19c5
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: {"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[170,233,70,78,184,207,36,254,88,253,59,247,219,37,79,16,64,69,101,99,179,121,29,143,82,180,226,0,184,73,92,60],"Salt":[219,17,2,255,139,162,45,194,157,24,30,34,168,254,96,117,210,201,236,162,46,99,29,61,0,92,250,64,199,190,154,61]}}
+    - Name: ChangeTimestamp
+      Id: g=4d69b571f153e0f6150c14186cabbfe0
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2022-11-24T03:02:49.6644918"
+    - Name: History
+      Id: g=7bda12981cbd912bd08f5b4918278ed5
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[170,233,70,78,184,207,36,254,88,253,59,247,219,37,79,16,64,69,101,99,179,121,29,143,82,180,226,0,184,73,92,60],"Salt":[219,17,2,255,139,162,45,194,157,24,30,34,168,254,96,117,210,201,236,162,46,99,29,61,0,92,250,64,199,190,154,61]}}]

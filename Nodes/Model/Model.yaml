@@ -1,2 +1,28 @@
 Name: Model
 Type: FolderType
+Children:
+- File: Motors/Motors.yaml
+- Name: MotorType
+  Id: g=30568f43b2ffd7567b3bb2cf98339136
+  Supertype: BaseObjectType
+  Children:
+  - Name: Sts_Err
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Sts_Running
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Sts_Stop
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: Torque
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
