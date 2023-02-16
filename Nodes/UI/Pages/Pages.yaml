@@ -1079,7 +1079,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"Longxin"}
+        Value: {"LocaleId":"en-US","Text":"Hello World"}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
